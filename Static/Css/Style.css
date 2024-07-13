@@ -4,45 +4,73 @@
   box-sizing: border-box;
   font-family: "Inter", sans-serif;
 }
-nav{
+header {
   background: #002444;
-  padding: 15px;
+  padding: 10px 0;
+  position: relative;
 }
-nav ul{
-  list-style: none;
-  font-weight: bold;
-  text-align: center;
-}
-nav ul li{
-  display: inline-block;
-  
-}
-nav ul li a{
-  color: #fff;
-  text-decoration: none;
-  margin: 10px;
-  padding: 15px ;
-  font-size: 20px;
-}
-.Logo-Title{
+
+nav .Logo-Title {
   color: #FFFFFF;
   font-size: 35px;
   font-weight: bold;
-  margin-top: 5px;
-  padding-left: 25px;
-  padding-bottom: 5px;
-  padding-top: 1px;
-  position: absolute;
+  padding-left: 10px;
+  margin: 0;
+  float: left;
 }
+
+nav {
+  overflow: hidden;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
 .arrow {
   border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 3px;
+  padding: 4px;
 }
+
 .down {
-  -webkit-transform: rotate(45deg);
   transform: rotate(45deg);
+}
+
+.search-container {
+  display: inline-block;
+}
+
+.search-container input[type="text"] {
+  padding: 5px;
+  border: 2px solid #88BCEB;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.icons {
+  display: inline-block;
+}
+
+.icons svg {
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 .Ad1 img {
