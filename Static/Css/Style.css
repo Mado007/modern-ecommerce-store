@@ -20,10 +20,20 @@ nav ul li{
 nav ul li a{
   color: #fff;
   text-decoration: none;
-  padding: 15px 30px;
+  margin: 10px;
+  padding: 15px ;
   font-size: 20px;
 }
-
+.Logo-Title{
+  color: #FFFFFF;
+  font-size: 35px;
+  font-weight: bold;
+  margin-top: 5px;
+  padding-left: 25px;
+  padding-bottom: 5px;
+  padding-top: 1px;
+  position: absolute;
+}
 .arrow {
   border: solid white;
   border-width: 0 3px 3px 0;
