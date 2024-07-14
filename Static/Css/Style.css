@@ -9,7 +9,6 @@ header {
   padding: 10px 0;
   position: relative;
 }
-
 nav .Logo-Title {
   color: #FFFFFF;
   font-size: 35px;
@@ -18,45 +17,37 @@ nav .Logo-Title {
   margin: 0;
   float: left;
 }
-
 nav {
   overflow: hidden;
 }
-
 nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: center;
 }
-
 nav ul li {
   display: inline-block;
   margin: 0 10px;
 }
-
 nav ul li a {
   color: #fff;
   text-decoration: none;
   padding: 10px;
   font-size: 20px;
 }
-
 .arrow {
   border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 4px;
 }
-
 .down {
   transform: rotate(45deg);
 }
-
 .search-container {
   display: inline-block;
 }
-
 .search-container input[type="text"] {
   padding: 5px;
   border: 2px solid #88BCEB;
@@ -138,6 +129,81 @@ nav ul li a {
   display: inline-block;
   cursor: pointer;
 }
+
+#contact-form {
+  border: 1px solid #ffffff;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 100px;
+}
+.Contact-Us-Form h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: #002444;
+}
+form {
+  border: 1px solid #000000;
+  margin: auto;
+  padding: 20px 20px 100px 20px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+form h2, form h4 {
+  margin: 10px 0;
+  clear: both;
+  text-align: left;
+}
+form h2{
+  color: #002444;
+}
+form h4 {
+  color: #000000cd;
+}
+.input-group {
+  overflow: hidden;
+  margin: 10px 0;
+}
+
+.input-group input {
+  width: 48%;
+  float: left;
+  margin-right: 4%;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #a6a6a6e0;
+  font-weight: bold;
+}
+
+.input-group input:last-child {
+  margin-right: 0;
+}
+
+textarea {
+  width: 100%;
+  margin: 10px 0;
+  box-sizing: border-box;
+  padding: 25px;
+  text-align: left;
+  border-radius: 10px;
+  border: 1px solid #a6a6a6;
+  font-weight: bold;
+}
+button {
+  margin: 10px 0;
+  padding: 22px 100px 22px 100px;
+  border-radius: 10px;
+  display: block;
+  float: left;
+  background-color: #002444;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 footer {
   background-color: #002444;
   color: #fff;
