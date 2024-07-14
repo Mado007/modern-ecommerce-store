@@ -210,35 +210,54 @@ footer {
   margin: 0;
   padding: 1vh;
 }
+
 footer .footer-container {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 0 20px;
-  overflow: hidden;
+  display: flex;
 }
+
 .footer-column {
-  text-align:center;
-  float: left;
-  width: 30%;
-  margin: 0 1%;
+  text-align: center;
+  flex: 0 0 20%;
   box-sizing: border-box;
 }
+
 .footer-column h3 {
   font-size: 1.2em;
   margin-bottom: 10px;
 }
+
 .footer-column ul {
   list-style-type: none;
   padding: 0;
 }
+
 .footer-column ul li {
   margin: 10px 0;
 }
+
 .footer-column ul li a {
   color: #fff;
   text-decoration: none;
 }
+
 .footer-column img {
   max-width: 100%;
   height: 150px;
+}
+
+.footer-column .Logo-Title p {
+  color: #FFFFFF;
+  font-size: 50px;
+  padding: 0;
+  margin: 25px 5px 20px 15px;
+  font-weight: bold;
+  text-align: left;
+  position: absolute;
+}
+.footer-column svg {
+ cursor: pointer;
+ margin-left: 5px;
 }
